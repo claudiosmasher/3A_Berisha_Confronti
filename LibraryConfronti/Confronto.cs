@@ -6,7 +6,14 @@ namespace LibraryConfronti
     {
         public static int Max(int n1, int n2)
         {
-            return 0;
+            if(n1>n2)
+            {
+                return n1;
+            }
+            else
+            {
+                return n2;
+            }
         }
     }
 }
